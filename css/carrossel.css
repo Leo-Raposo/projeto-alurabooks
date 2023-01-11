@@ -34,6 +34,7 @@
 
 .botoes {
     display: flex;
+    margin: 2em 0 0 0;
 }
 
 .card {
@@ -47,6 +48,7 @@ padding: 1em;
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
+    padding: 0 0.5em 0 0;
 }
 
 .descricao__titulo-livro {
@@ -58,6 +60,7 @@ padding: 1em;
 
 .descricao__texto {
     font-size: 14px;
+    padding: 0 4em 0 0;
 }
 
 .botoes__ancora {
@@ -66,4 +69,10 @@ padding: 1em;
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    margin: 2em 0 0 3em;
 }
+
+.descricao-autora {
+    padding: 0 1em;
+}
+
